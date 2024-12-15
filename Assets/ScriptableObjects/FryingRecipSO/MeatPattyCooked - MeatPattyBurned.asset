@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bd716d006869834a8c8f61dd5bf1162, type: 3}
-  m_Name: MeatPattyUncooked-MeatPattyCooked
+  m_Name: MeatPattyCooked - MeatPattyBurned
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: d679a95e1abc8d348b9aba0722174c70, type: 2}
-  output: {fileID: 11400000, guid: ef0bb01f5a1010b408d39edc800da64d, type: 2}
+  input: {fileID: 11400000, guid: ef0bb01f5a1010b408d39edc800da64d, type: 2}
+  output: {fileID: 11400000, guid: d164cc81a709817439480f04a07cd519, type: 2}
   fryingTimerMax: 3
