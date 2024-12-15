@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/a6395e56-f631-4397-b4fd-74fcc8c16b1a)
+
+
 Kitchen Kaos 🍳
 Kitchen Kaos is a project I am developing to improve my game development skills in Unity. This project is still under development, and its purpose is to help me learn and explore the various aspects of creating a game.
 
