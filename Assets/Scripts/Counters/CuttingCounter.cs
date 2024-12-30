@@ -40,6 +40,10 @@ public class CuttingCounter : BaseCounter,IHasProgress {
 
                 }
             }
+            else
+            {
+                // Player is not carrying anything
+            }
         }
         else
         {
@@ -47,6 +51,13 @@ public class CuttingCounter : BaseCounter,IHasProgress {
             if (player.HasKitchenObject())
             {
                 // Player is carrying something
+                if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
+                {
+                    // Player is holding a plate
+                    if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
+                    { GetKitchenObject().DestroySelf(); }
+
+                }
             }
             else
             {
